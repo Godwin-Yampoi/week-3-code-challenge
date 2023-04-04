@@ -1,0 +1,77 @@
+/* Style for the body element */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the header element */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Style for the h1 element */
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Style for the table element */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for the th element */
+th {
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Style for the td element */
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Style for the first td element in each row */
+td:first-child {
+  font-weight: bold;
+}
+
+/* Style for the img element */
+img {
+  max-height: 150px;
+  border: none;
+}
+
+/* Style for the ticket button */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Style for the ticket button on hover */
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* Style for the ticket button on click */
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
